@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>3_2_output</title>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/substyle1.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <div class="title">Recommendations</div>
+    <h1>For PE-1 : </h1>
+    <h2>Your potential scores are as follows</h2>
+    <br>
+    <p>R Programming : {{R}}</p>
+    <br>
+    <p>UNIX Programming : {{UNIX}}</p>
+    <br>
+    <p>Object Oriented Analysis and Design : {{OOAD}}</p>
+    <br>
+    <h3>{{RecommPE1}} is recommended for you.</h3><br>
+    <br><br>
+
+    <h1>For PE-2 : </h1>
+    <h2>Your potential scores are as follows</h2>
+    <br>
+    <p>Machine Learning : {{ML}}</p>
+    <br>
+    <p>E-Commerce : {{ECom}}</p>
+    <br>
+    <p>Cyber Forensics : {{CF}}</p>
+    <br>
+    <h3>{{RecommPE2}} is recommended for you.</h3><br>
+    <br><br>
+
+    <h1>For PE-3 : </h1>
+    <h2>Your potential scores are as follows</h2>
+    <br>
+    <p>Mobile Computing : {{MC}}</p>
+    <br>
+    <p>Advanced Databases : {{AD}}</p>
+    <br>
+    <p>Human Computer Interaction : {{HCI}}</p>
+    <br>
+    <h3>{{RecommPE3}} is recommended for you.</h3><br>
+    <br><br>
+
+
+
+
+</body>
+
+</html>

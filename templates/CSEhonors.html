@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSE honors input</title>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/substyle1.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <form action="#" method="post">
+      <h3>Proficiency in these courses is required for honors in Data Science or Cyber security</h3>
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Programming and problem solving-1</span>
+          <input type="number" name="PPS1" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Programming and problem solving-2</span>
+          <input type="number" name="PPS2" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Probability and Statistics</span>
+          <input type="number" name="P&S" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Data Structures</span>
+          <input type="number" name="DStr" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Digital Logic Design</span>
+          <input type="number" name="DLD" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Python Programming</span>
+          <input type="number" name="PP" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Discrete Mathematics</span>
+          <input type="number" name="DM" required>
+        </div>
+      </div>
+      <div class="button">
+        <input type="submit" value="submit">
+      </div>
+    </form>
+</body>
+
+</html>

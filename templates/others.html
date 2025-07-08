@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSE minors input</title>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/substyle1.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Subject Details</div>
+    <form action="#" method="post">
+      <h2>Enter 1st semester marks</h2>
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Mathematics-1</span>
+          <input type="number" name="M1" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Applied Physics</span>
+          <input type="number" name="AP" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Basic Electrical Engineering</span>
+          <input type="number" name="BEE" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Engineering Workshop</span>
+          <input type="number" name="EWS" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Programming and problem solving-1</span>
+          <input type="number" name="PPS1" required>
+        </div>
+      </div>
+      <h2>Enter 2nd semester marks</h2>
+
+      <div class="user-details">
+
+        <div class="input-box">
+          <span class="details">Mathematics-2</span>
+          <input type="number" name="M2" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Programming and problem solving-2</span>
+          <input type="number" name="PPS2" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Engineering Chemistry</span>
+          <input type="number" name="EC" required>
+        </div>
+        <div class="input-box">
+          <span class="details">Engineering Drawing</span>
+          <input type="number" name="EDraw" required>
+        </div>
+      </div>
+
+
+      <div class="button">
+        <input type="submit" value="submit">
+      </div>
+    </form>
+</body>
+
+</html>

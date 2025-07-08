@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ELMIHO</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/homepage.css') }}">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="menu">
+            <nav>
+                <a href="homepage.html"><img src="logo.jpg"></a>
+            </nav>
+
+        </div>
+
+
+
+        <div class="content">
+            <h1><span>Welcome!</span></h1>
+            <p class="par">This is a portal that recommends you professional electives, minors and honors based
+                upon your B.Tech marks.<br>
+                Recommendations for Electives, minors and honors are available for CSE students.<br>Recommendations for
+                Minors are avialable for all the other branches.
+            </p>
+
+            <button class="cn"><a href="{{ url_for('register') }}">Register</a></button>
+            <button class="cn"><a href="{{ url_for('login') }}">Login</a></button>
+
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+
+</html>

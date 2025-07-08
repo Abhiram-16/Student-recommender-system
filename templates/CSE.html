@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSE</title>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/substyle1.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Field of recommendation</div><br>
+    <form action="#" method="post">
+      <input type="radio" name="type" value="electives" checked>
+      <label>Electives</label><br>
+      <input type="radio" name="type" value="honors">
+      <label>Honors in CSE</label><br>
+      <input type="radio" name="type" value="minors">
+      <label>Minors</label><br>
+      <div class="button">
+        <input type="submit" value="submit">
+      </div>
+    </form>
+</body>
+
+</html>
