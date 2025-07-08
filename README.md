@@ -50,14 +50,4 @@ Optional (future scope):
 
 ## 📦 Project Structure
 
-Student-recommender-system/
-│
-├── app.py # Flask app
-├── dataset.csv # Training data for sem 3-2
-├── New dataset.csv # Training data for sem 4-1
-├── modelfor3_2.pkl # Trained ML model (sem 3-2)
-├── modelfor4_1.pkl # Trained ML model (sem 4-1)
-├── templates/ # HTML pages
-├── static/ # CSS and assets
-├── venv/ # Virtual environment (excluded via .gitignore)
-└── requirements.txt # Python dependencies
+<pre> <code> ``` Student-recommender-system/ ├── app.py # Flask app ├── dataset.csv # Training data for sem 3-2 ├── New dataset.csv # Training data for sem 4-1 ├── modelfor3_2.pkl # Trained ML model (sem 3-2) ├── modelfor4_1.pkl # Trained ML model (sem 4-1) ├── templates/ # HTML pages ├── static/ # CSS and assets ├── venv/ # Virtual environment (excluded via .gitignore) └── requirements.txt # Python dependencies ``` </code> </pre>
