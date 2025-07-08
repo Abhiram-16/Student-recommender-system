@@ -27,7 +27,7 @@ Machine Learning Models:
 - Trained on structured academic data
 - Use `RandomForestRegressor` to predict subject performance
 
-Optional (future scope):
+future scope:
 - NLP model matches student's free-text interests with course descriptions
 
 ---
@@ -42,12 +42,18 @@ Optional (future scope):
 
 ---
 
-## 📷 Screenshots
-
-> _Add screenshots here of the web interface and prediction results_
-
----
-
 ## 📦 Project Structure
 
-<pre> <code> ``` Student-recommender-system/ ├── app.py # Flask app ├── dataset.csv # Training data for sem 3-2 ├── New dataset.csv # Training data for sem 4-1 ├── modelfor3_2.pkl # Trained ML model (sem 3-2) ├── modelfor4_1.pkl # Trained ML model (sem 4-1) ├── templates/ # HTML pages ├── static/ # CSS and assets ├── venv/ # Virtual environment (excluded via .gitignore) └── requirements.txt # Python dependencies ``` </code> </pre>
+```
+Student-recommender-system/
+├── app.py # Flask app
+├── dataset.csv # Training data for sem 3-2
+├── New dataset.csv # Training data for sem 4-1
+├── modelfor3_2.pkl # Trained ML model (sem 3-2)
+├── modelfor4_1.pkl # Trained ML model (sem 4-1)
+├── templates/ # HTML pages
+├── static/ # CSS and assets
+├── venv/ # Virtual environment (excluded via .gitignore)
+└── requirements.txt # Python dependens
+
+```
